@@ -71,6 +71,19 @@ html.alto-contraste a { color: #ffff00; }
 
 .container { max-width: 52rem; margin: 0 auto; padding: 0 1rem; }
 
+/* Texto só para leitores de tela */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* Barra de acessibilidade */
 .barra-acess {
   background: var(--primaria-escura);
